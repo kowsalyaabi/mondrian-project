@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian-painting</title>
+    <style>
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.grid_container{
+    width: 559px;
+    height: 559px;
+    display: grid;
+    grid-template-columns: 50px 69px 69px 147px 72.5px 72.5px 25px;
+    grid-template-rows: 50px 130px 130px 70px 70px 30px 25px;
+    gap: 9px;
+    background-color: #000;
+    border: 9px solid #000;
+}
+.lblue{
+    background-color:#F1F6F9 ;
+    grid-column: span 2;
+}
+.lviolet{
+    background-color:#F3F1F5 ;
+    grid-column: 3 / span 2;
+}
+.yellow{
+    background-color: #F9D01E;
+    grid-column: span 2;
+}
+.lviolet1{
+    background-color:#F3F1F5 ;
+    grid-row: span 4;
+}
+.white{
+    background-color:#F0F1EC ;
+}
+.red{
+    background-color: #E72F24;
+    grid-area: 2/2/4/5;
+}
+.yellow1{
+    background-color: #F9D01E;
+    grid-column: 5/ span 2;
+}
+.lblue1{
+    background-color: #F1F6F9;
+    grid-row: 3/span 2;
+}
+.white1{
+    background-color:#F0F1EC ;
+
+}
+.white2{
+    background-color:#F0F1EC ;
+}
+.black{
+    background-color: #232629;
+    grid-area:4/2/span 2/span 2 ;
+}
+.lblue2{
+    background-color:#F1F6F9 ;
+}
+.white3{
+    background-color: #F0F1EC;
+    grid-column: span 2;
+}
+.yellow2{
+    background-color: #F9D01E;
+    grid-row: span 3;
+}
+.lblue3{
+    background-color: #F1F6F9;
+}
+.blue{
+    background-color:#004592 ;
+    grid-area: 5/5/span 2/span 2;
+}
+.red1{
+    background-color: #E72F24;
+    grid-row: span 3;
+}
+.white4{
+    background-color: #F0F1EC;
+    grid-area: 6/2/span 2/span 2;
+}
+.black1{
+    background-color: #232629;
+}
+.lviolet2{
+    background-color: #F3F1F5;
+    grid-column: span 3;
+}
+</style>
+</head>
+<body>
+    <div class="grid_container">
+        <div class="item lblue"></div>
+        <div class="item lviolet"></div>
+        <div class="item yellow"></div>
+        <div class="item lviolet1"></div>
+        <div class="item white"></div>
+        <div class="item red"></div>
+        <div class="item yellow1"></div>
+        <div class="item lblue1"></div>
+        <div class="item white1"></div>
+        <div class="item white2"></div>
+        <div class="item black"></div>
+        <div class="item lblue2"></div>
+        <div class="item white3"></div>
+        <div class="item yellow2"></div>
+        <div class="item lblue3"></div>
+        <div class="item blue"></div>
+        <div class="item red1"></div>
+        <div class="item white4"></div>
+        <div class="item black1"></div>
+        <div class="item lviolet2"></div>
+    </div>
+
+    
+</body>
+</html>
